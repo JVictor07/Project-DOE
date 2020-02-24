@@ -9,14 +9,17 @@ O funcionamento é muito simples e focado na experiência do usuário na aplica�
 
 ### Passo a passo dentro do site
 1º Após entrar no site, o usuário o verá como está na imagem abaixo.
+
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE1.png)
 
 2º Após clicar no botão (Quero ajudar) é somente preencher o formulário que aparecerá.
 
 Obs: Note que nesta foto o formulário já está preenchido com meus dados, e que há uma flecha mostrando que ainda não existe meu nome no campo dos "Últimos doadores".
+
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE2.png)
 
 3º Depois de preenchido, ele clicará no botão (Quero ajudar) de dentro do formulário e seu nome aparecerá automaticamente no campo dos "Últimos doadores" 
+
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE3.png)
 
 4º Prontinho, o usuário já estará cadastro como um doador e seus dados já estarão guardados dentro de um banco de dados. 
