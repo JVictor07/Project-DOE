@@ -7,16 +7,21 @@ Pensando em melhorar essa situação foi desenvolvido esse website para cadastro
 
 O funcionamento é muito simples e focado na experiência do usuário na aplicação, pois são poucas as informações que ele precisa enviar e o processo é bem rápido.
 
-### Passo a passo
-1º Está é a imagem que o usuário vê ao entrar no site.
+### Passo a passo dentro do site
+1º Após entrar no site, o usuário o verá como está na imagem abaixo.
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE1.png)
 
-2º Após ter clicado no botão (Quero ajudar), surgirá um campo para que ele preencha o formulário.
-OBS: Note que neste caso já está preenchido com minhas informações e tem uma flecha no campo dos últimos doadores, mostrando que meu nome ainda não está lá.
+2º Após clicar no botão (Quero ajudar) é somente preencher o formulário que aparecerá.
+
+Obs: Note que nesta foto o formulário já está preenchido com meus dados, e que há uma flecha mostrando que ainda não existe meu nome no campo dos "Últimos doadores".
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE2.png)
 
-3º Clicando no botão 
-![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE3.png) 
+3º Depois de preenchido, ele clicará no botão (Quero ajudar) de dentro do formulário e seu nome aparecerá automaticamente no campo dos "Últimos doadores" 
+![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE3.png)
+
+4º Prontinho, o usuário já estará cadastro como um doador e seus dados já estarão guardados dentro de um banco de dados. 
+
+
 ```
 teste
 
