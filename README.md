@@ -14,7 +14,7 @@ Assim, o hospital ou instituição responsável pelo site já terá tudo o que p
 - Tipo sanguíneo: Para ver se é necessário esse tipo de sangue no hospital ou instituição.
 
 ## Passo a passo dentro do site
-### 1º Após entrar no site, o usuário o verá como está na imagem abaixo.
+### 1º Após entrar no site, o usuário o verá uma tela como a da imagem abaixo.
 
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE1.png)
 
