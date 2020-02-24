@@ -1,12 +1,20 @@
-## Welcome to GitHub Pages
+## Projeto DOE
 
-You can use the [editor on GitHub](https://github.com/JVictor07/Project-DOE/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+O número de brasileiros que doam sangue no Brasil é muito pequeno se comparado a alta necessidade dos hospitais.
+Pensando em melhorar essa situação foi desenvolvido esse website para cadastro de doadores. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Funcionamento
 
-### Markdown
+O funcionamento é muito simples e focado na experiência do usuário na aplicação, pois são poucas as informações que ele precisa enviar e o processo é bem rápido.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Passo a passo
+1º O futuro doador cadastra seu nome, email e tipo sanguíneo
+2º Clica no botão "Quero ajudar"
+
+```
+teste
+
+```
 
 ```markdown
 Syntax highlighted code block
