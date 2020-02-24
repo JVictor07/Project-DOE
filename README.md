@@ -9,6 +9,7 @@ O funcionamento é muito simples e focado na experiência do usuário na aplica�
 
 ### Passo a passo
 1º O futuro doador cadastra seu nome, email e tipo sanguíneo
+![image](https://imgur.com/30RaTWH)
 2º Clica no botão "Quero ajudar"
 
 ```
