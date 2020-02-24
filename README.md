@@ -9,7 +9,7 @@ O funcionamento é muito simples e focado na experiência do usuário na aplica�
 
 ### Passo a passo
 1º O futuro doador cadastra seu nome, email e tipo sanguíneo
-[image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE1.png)
+![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE1.png)
 2º Clica no botão "Quero ajudar"
 
 ```
