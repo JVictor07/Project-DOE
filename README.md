@@ -8,10 +8,15 @@ Pensando em melhorar essa situação foi desenvolvido esse website para cadastro
 O funcionamento é muito simples e focado na experiência do usuário na aplicação, pois são poucas as informações que ele precisa enviar e o processo é bem rápido.
 
 ### Passo a passo
-1º O futuro doador cadastra seu nome, email e tipo sanguíneo
+1º Está é a imagem que o usuário vê ao entrar no site.
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE1.png)
-2º Clica no botão "Quero ajudar"
 
+2º Após ter clicado no botão (Quero ajudar), surgirá um campo para que ele preencha o formulário.
+OBS: Note que neste caso já está preenchido com minhas informações e tem uma flecha no campo dos últimos doadores, mostrando que meu nome ainda não está lá.
+![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE2.png)
+
+3º Clicando no botão 
+![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE3.png) 
 ```
 teste
 
