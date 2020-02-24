@@ -1,0 +1,200 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh; /*Assim o rodapé smp ficará no final*/
+
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #000000cc;
+}
+/* FIM -- GLOBAL*/
+
+/*TITULOS*/
+header h1, main h2 {
+    margin-bottom: 70px;
+}
+
+main h2 span {
+    color: #ff4f4f;
+}
+
+.form h2 {
+    text-align: right;
+    color: #ffffffee;
+    font-size: 18px;
+}
+/* FIM - TITULOS */
+
+/* ESTRUTURA */
+header, main, footer {
+    text-align: center;
+}
+
+header, .form, main {
+    /*Espaçamento com margin*/
+    margin: 0 auto 70px auto;
+
+    /*Limites com elementos na página*/
+    width:90%;
+    max-width: 500px;
+}
+/* FIM - ESTRUTURA*/
+
+/* HEADER */
+header button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+
+    background-color: #ff4f4f;
+    color: white;
+
+    font-weight: bold;
+}
+
+.logo {
+    margin: 70px 0;
+}
+
+header p {
+    font-size: 14px;
+}
+/* FIM -- HEADER*/
+
+/*FORM*/
+
+/*Quadrado onde está todas as informações do FORM*/
+section.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 45px;
+    align-items: center;
+
+    background-color: #ff4f4f;
+
+    padding: 16px 64px;
+
+    border-radius: 6px;
+}
+
+/*botões e campos do formluário*/
+form input,
+form button {
+    /*largura*/
+    width: 100%;
+
+    /*espaçamentos*/
+    margin-bottom: 4px;
+
+    /*preenchimento*/
+    padding: 8px 16px;
+
+    /* bordas */
+    border-radius: 4px;
+    border: 1px solid #ffffff88;
+}
+
+form input {
+    background-color: transparent;
+    color: #ffffff88;
+}
+form input::placeholder {
+    color: #ffffffaa;
+}
+
+form button {
+    font-weight: bold;
+}
+/* FIM -- botões e campos do formulário */
+
+/* FIM -- FORM */
+
+/* CAMPO DOS ULTIMOS DOADORES */
+
+main .donors {
+    /*Deixa os doadores separados em 4 partes*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.blood {
+    color: #ff4f4f;
+    font-weight: bold;
+    font-size: 12px;
+
+    /*Cuidam para que a letra e as gotinhas fiquem alinhadas*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    /*Este e o position da gota, faz com que um sobreponha ao outro*/
+    position: relative;
+}
+
+.blood::before {
+    /*Cria a gota em si*/
+    content: "";
+    background-color: #ff4f4f33;
+    width: 40px;
+    height: 40px;
+
+    /*Este e o position do sangue dos doadores, faz com que um se sobreponha ao outro*/
+    position: absolute;
+
+    /*faz o formato da gotinha*/
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    transform: rotate(-45deg);
+}
+
+.donor p {
+    /*Cuida da posição e do tamanho do nome dos doadores*/
+    margin-top: 24px;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+/* FIM -- CAMPO DOS ULTIMOS DOADORES */
+
+/*FOOTER*/
+footer {
+    /*cuida para que ele fique sempre no fim e localizado no centro*/
+    margin-top: auto;
+    padding: 16px;
+    border: 1px solid #eee;
+}
+/* FIM -- FOOTER */
+
+/* FUNCIONALIDADES COM JS*/
+
+section.form{
+    /*faz com que a saida do campo do formulário 
+    demore um pouco, criando um efeito bonito*/
+    transition: all 300ms;
+}
+
+section.form.hide {
+    /*quando o JS colocar a classe hide no form, ele se tornará invisivel
+    E dará um efeito de que foi guardado dentro do botão do header*/
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin-top: -70px;
+}
+
+/* FIM -- FUNCIONALIDADES COM JS */
