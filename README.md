@@ -31,31 +31,23 @@ Obs: Note que nesta foto o formulário já está preenchido com meus dados, e qu
 ### 4º Prontinho, o usuário já estará cadastro como um doador e seus dados já estarão guardados dentro de um banco de dados. 
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/ftbancoDOE.png)
 
-##Linguagens e pacotes utilizados:
+## Ferramentas necessárias:
 
+### Linguagens:
 - HTML
 - CSS
 - JavaScript
 
-```
-teste
+### Banco de dados:
+- PostBird (Versão mais leve do PostgreSQL)
 
-```
+### Servidor :
+- Feito em NodeJS, utilizando os pacotes:
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+- Init (Para iniciar minha aplicação com o NodeJS) -- npm init -y (esse -y foi usado para que ele não faça perguntas)
+- Express (Framework para criar servidores com o NodeJS) -- npm install express
+- Nodemon (para automatizar a inicialização do servidor) -- npm install nodemon
+- Nunjucks (Engine para adicionar variaveis ao HTML) -- npm install nunjucks
+- Pg (para ligar o servidor ao banco de dados) --  npm install pg
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
