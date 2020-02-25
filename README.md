@@ -2,9 +2,9 @@
 
 O número de brasileiros que doam sangue no Brasil é muito pequeno se comparado a alta necessidade dos hospitais.
 
-Pensando em melhorar essa situação a Rocktseat desenvolveu esse website em sua 3º MaratonaDev, onde pude acompanhar o desenvolvimento e aproveitei para adicionar diversos comentários no código para melhor interpretação de outros DEVs, e também para explicar cada tomada de decisão no desenvolvimento dessa aplicação.
+Pensando em melhorar essa situação a Rocktseat desenvolveu esse website em sua 3º MaratonaDev, onde pude acompanhar e realizar o meu próprio desenvolvimento. Também aproveitei para adicionar diversos comentários no código para melhor interpretação de outros DEVs, e também para explicar cada tomada de decisão no desenvolvimento dessa aplicação.
 
-Espero que gostem 😊.
+Você encontrará todos os meus códigos logo acima ☝. Espero que gostem 😊.
 
 ## Funcionamento
 
