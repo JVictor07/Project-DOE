@@ -14,7 +14,7 @@ Assim, o hospital ou instituição responsável pelo site já terá tudo o que p
 - Tipo sanguíneo: Para ver se é necessário esse tipo de sangue no hospital ou instituição.
 
 ## Passo a passo dentro do site
-### 1º Após entrar no site, o usuário o verá uma tela como a da imagem abaixo.
+### 1º Após entrar no site, o usuário verá uma tela como a da imagem abaixo.
 
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE1.png)
 
@@ -28,7 +28,7 @@ Obs: Note que nesta foto o formulário já está preenchido com meus dados, e qu
 
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/FtSiteDOE3.png)
 
-### 4º Prontinho, o usuário já estará cadastro como um doador e seus dados já estarão guardados dentro de um banco de dados. 
+### 4º Prontinho! O usuário já estará cadastro como um doador e seus dados já estarão guardados dentro de um banco de dados. 
 ![image](https://github.com/JVictor07/Project-DOE/blob/master/ftbancoDOE.png)
 
 ## Ferramentas necessárias:
@@ -45,9 +45,9 @@ Obs: Note que nesta foto o formulário já está preenchido com meus dados, e qu
 - Feito em NodeJS, utilizando os pacotes:
 
 
-- Init (Para iniciar minha aplicação com o NodeJS) -- npm init -y (esse -y foi usado para que ele não faça perguntas)
-- Express (Framework para criar servidores com o NodeJS) -- npm install express
-- Nodemon (para automatizar a inicialização do servidor) -- npm install nodemon
-- Nunjucks (Engine para adicionar variaveis ao HTML) -- npm install nunjucks
-- Pg (para ligar o servidor ao banco de dados) --  npm install pg
+1. Init (Para iniciar minha aplicação com o NodeJS) -- npm init -y (esse -y foi usado para que ele não faça perguntas na inicialização)
+2. Express (Framework para criar servidores com o NodeJS) -- npm install express
+3. Nodemon (para automatizar a inicialização do servidor) -- npm install nodemon
+4. Nunjucks (Engine para adicionar variaveis ao HTML) -- npm install nunjucks
+5. Pg (para ligar o servidor ao banco de dados) --  npm install pg
 
